@@ -159,6 +159,33 @@ h6 {
 	padding: 3rem;
 }
 
+.l-heading {
+	font-size: 2rem;
+}
+
+.page-container {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+	margin: 2rem 0;
+	grid-gap: 1.5rem;
+}
+
+.page-container article {
+	grid-row: 1 / span 3;
+}
+
+.meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eee;
+	padding: 0.5rem;
+}
+
+.meta .category {
+	margin-top: 0.5rem;
+}
+
 /* Navigation Bar */
 
 #main-nav {
@@ -322,16 +349,16 @@ h6 {
 	cursor: pointer;
 }
 
-#main-footer ul li {
+.list li {
 	padding: 0.5rem 0;
 	border-bottom: 1px solid #444;
 }
 
-#main-footer ul li a:hover {
+.list li a:hover {
 	color: var(--primary-color);
 }
 
-#main-footer ul li:last-child {
+.list li:last-child {
 	border: none;
 }
 
