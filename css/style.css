@@ -293,3 +293,60 @@ h6 {
 #home-article .article-container .card p {
 	margin-bottom: 0.5rem;
 }
+
+/* Footer */
+
+#main-footer .footer-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#main-footer .logo {
+	width: 150px;
+	margin-bottom: 0.5rem;
+}
+
+#main-footer form input,
+#main-footer form button {
+	width: 90%;
+	display: block;
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	font-size: 0.7rem;
+}
+
+#main-footer form button {
+	cursor: pointer;
+}
+
+#main-footer ul li {
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #444;
+}
+
+#main-footer ul li a:hover {
+	color: var(--primary-color);
+}
+
+#main-footer ul li:last-child {
+	border: none;
+}
+
+#main-footer .large {
+	font-size: 1.5rem;
+}
+
+#main-footer .join p {
+	margin-bottom: 0.5rem;
+}
+
+#main-footer .copyright {
+	text-align: center;
+	font-size: 1.1rem;
+	background: #444;
+	margin: -0.5rem 0 1rem 0;
+	padding: 5px;
+}
