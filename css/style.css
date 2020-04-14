@@ -107,6 +107,7 @@ h6 {
 	display: block;
 	width: 100%;
 	text-align: center;
+	margin-top: 0.5rem;
 }
 
 .btn:hover {
@@ -172,6 +173,19 @@ h6 {
 
 .page-container article {
 	grid-row: 1 / span 3;
+}
+
+.list li {
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #444;
+}
+
+.list li a:hover {
+	color: var(--primary-color);
+}
+
+.list li:last-child {
+	border: none;
 }
 
 .meta {
@@ -347,19 +361,6 @@ h6 {
 
 #main-footer form button {
 	cursor: pointer;
-}
-
-.list li {
-	padding: 0.5rem 0;
-	border-bottom: 1px solid #444;
-}
-
-.list li a:hover {
-	color: var(--primary-color);
-}
-
-.list li:last-child {
-	border: none;
 }
 
 #main-footer .large {
