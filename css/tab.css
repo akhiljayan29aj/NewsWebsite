@@ -1,3 +1,7 @@
+.social{
+	display: none;
+}
+
 #home-article .article-container {
 	grid-template-columns: 1fr 1fr;
 }
