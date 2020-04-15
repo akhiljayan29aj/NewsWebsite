@@ -290,6 +290,7 @@ h6 {
 #showcase .showcase-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.5rem;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
