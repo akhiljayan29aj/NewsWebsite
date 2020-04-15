@@ -1,8 +1,6 @@
 #main-nav .container {
-	grid-template-columns: none;
+	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
-	padding: 1rem;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -10,8 +8,14 @@
 	display: none;
 }
 
+#main-nav ul {
+	display: flex;
+	justify-self: center;
+}
+
 #main-nav .logo {
 	margin-bottom: 0.7rem;
+	justify-self: center;
 }
 
 #showcase .showcase-container {
